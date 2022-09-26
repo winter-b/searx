@@ -2,7 +2,7 @@ version: "3"
 
 services:
   searx:
-    build: .
+    image: solo4444/searx
     container_name: searx
     ports:
         - 8090:8080
